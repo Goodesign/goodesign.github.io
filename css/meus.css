@@ -1,39 +1,12 @@
 html {-webkit-font-smoothing: antialiased !important;
-	  text-rendering: optimizeLegibility;}
+	  text-rendering: optimizeLegibility;
+	  background: url(../img/background/bg.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+	 background-color:#000000;	  }
 	
-	body {
-  /* Location of the image */
-  background-image: url(../img/background/background-photo.jpg);
-  
-  /* Image is centered vertically and horizontally at all times */
-  background-position: center center;
-  
-  /* Image doesn't repeat */
-  background-repeat: no-repeat;
-  
-  /* Makes the image fixed in the viewport so that it doesn't move when 
-     the content height is greater than the image height */
-  background-attachment: fixed;
-  
-  /* This is what makes the background image rescale based on its container's size */
-  background-size: cover;
-  
-  /* Pick a solid background color that will be displayed while the background image is loading */
-  background-color:#464646;
-  
-  /* SHORTHAND CSS NOTATION
-   * background: url(../img/background/background-photo.jpg) center center cover no-repeat fixed;
-   */
-}
-
-/* For mobile devices */
-@media only screen and (max-width: 767px) {
-  body {
-    /* The file size of this background image is 93% smaller
-     * to improve page load speed on mobile internet connections */
-    background-image: url(../img/background/background-photo-mobile-devices.jpg);
-  }
-	}
 
 
 
@@ -43,24 +16,42 @@ html {-webkit-font-smoothing: antialiased !important;
 			  box-sizing: border-box; 
 			  position: fixed;
 			  bottom:2.0rem;  
-			  background-color:rgba(220,57,60,1.00)}
+			  }
   
  #menuinferior ul {  
 			 margin-left:15%;
-			 list-style-type: none;	}
+			 list-style-type: none;	
+			 }
+
+#lihome  {	
+			font-family: 'Work Sans', sans-serif;
+			font-size:10rem;
+			padding-left:5rem;
+			font-weight:400;
+				}
 
 #menuinferior li {	
 			font-family: 'Work Sans', sans-serif;
 			font-size:1.7rem;
-			padding: 1.5rem;
+			padding-left:0.5rem;
 			font-weight:400;
 			display: inline;
-			vertical-align:text-bottom;}
+			
+			
+			}
+		
 
 #menuinferior li a  {
-			color:#000;
+			color:rgba(0,0,0,0.4);
 			text-decoration:none;
-			padding: 0 20px 0 20px;}
+			padding: 5px 40px 60px 40px;
+			
+		    background-color: rgba(0,0,0,0.14) }
+			
+#menuinferior li a:hover {color:#ffffff;
+            background:rgba(0,0,0,0.4);			
+	
+			}			
 			
 /* --------------------------Icons Menu */			
 .icons-menu { width:3.5rem; 
@@ -68,6 +59,8 @@ html {-webkit-font-smoothing: antialiased !important;
 			
 			
 /* ---------------------------------------------Menu responsivo */
+	
+	
 	#lateral {
 	padding:0 50px 0 0;
 	-moz-transition: all 0.5s ease;
@@ -115,6 +108,7 @@ left:-600px;
 	margin-bottom:1em;
 	margin-left:1em;
 	padding-bottom:1em;
+	
 	}
 
 #menu {
@@ -144,4 +138,15 @@ left:-600px;
 			-webkit-transition: all 0.5s ease;
 				-o-transition: all 0.5s ease;
 					transition: all 0.5s ease;
-	}			
+	}
+	
+	#socialiconsmenu {  margin-top: 2rem;
+						margin-left: 2rem;
+						}
+   #socialiconsmenu a { padding-right: 10px;}
+   
+   #socialiconsmenu .icons-menu { width:4.5rem; 
+			height: 4.5rem;}
+   
+	
+	
