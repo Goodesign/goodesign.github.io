@@ -1,0 +1,34 @@
+# humanstxt.org/
+
+                            
+Your title: Oscar E. Inglez Neto
+
+                            
+Site:   http://oscar.goodesign.com.br 	
+		http://www.goodesign.com.br
+		http://www.davan.com.br
+
+                            
+Facebook: https://www.facebook.com/oscaringlez
+
+Email: oscar@goodesign.com.br
+
+                          
+# THANKS
+
+    Todos os envolvidos em realizar um bom trabalho em programação, visual e de funcionalidades
+
+
+                            
+/* SITE */
+                            
+Last update: 2015/12/01
+
+                            
+Standards: HTML5, CSS3, FancyZoom.js
+
+                            
+Components: normalize.css | initializr 
+
+                            
+Software: photoshop notepad++ dreamweaver filezilla 

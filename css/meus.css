@@ -1,0 +1,113 @@
+
+/* ---------------------------------------------Menu */
+
+#menuinferior {  	  width: 100%;
+			  box-sizing: border-box; 
+			  position: fixed;
+			  bottom:2.0rem;  
+			  background-color:rgba(220,57,60,1.00)}
+  
+ #menuinferior ul {  
+			 margin-left:15%;
+			 list-style-type: none;	}
+
+#menuinferior li {	
+			font-family: 'Work Sans', sans-serif;
+			font-size:1.7rem;
+			padding: 1.5rem;
+			font-weight:400;
+			display: inline;
+			vertical-align:text-bottom;}
+
+#menuinferior li a  {
+			color:#000;
+			text-decoration:none;
+			padding: 0 20px 0 20px;}
+			
+/* --------------------------Icons Menu */			
+.icons-menu { width:3.5rem; 
+			height: 3.5rem;}
+			
+			
+/* ---------------------------------------------Menu responsivo */
+
+
+	
+	
+	#lateral {
+	padding:0 50px 0 0;
+	-moz-transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+	font-size:1.2em;
+	
+	height:100%;
+	overflow:hidden;
+	width:350px; 
+	position:fixed;
+	top:0;
+	left:-340px;
+	}
+#lateral:before {
+	z-index:1000;
+	content: url(../img/icons/menubar.svg);
+	overflow:hidden;
+	position:fixed;
+	left:20px;
+	top:20px;
+	}
+	
+	::-webkit-scrollbar { 
+    display: none; 
+}
+#lateral:hover:before, #lateral:focus:before {
+left:-600px;
+	}
+#lateral:hover, #lateral:focus,  #lateral:active  {
+	overflow:hidden;
+	-moz-transform: translate(340px, 0);
+		-webkit-transform: translate(340px, 0);
+			-o-transform: translate(340px, 0);
+				transform: translate(340px, 0);
+	padding-right:0;
+	background:rgba(0,0,0, 1);
+	}	
+	
+	
+	
+	#lateral .box {
+	list-style-type:none;
+	margin-bottom:1em;
+	margin-left:1em;
+	padding-bottom:1em;
+	}
+
+#menu {
+	font-family: 'Work Sans', sans-serif;
+	position:relative;
+	font-size:1.0em;
+	margin:1em 0 1em -1em;
+	padding:0;
+	}
+	
+#menu li {padding:0; margin:0;}
+#menu li a,  #menu li a:link {
+	font-size:1.2em;
+	color:rgb(255,255,255);
+	text-decoration: none;
+	padding: 0.8em 0 0.8em 1em;
+	display: block;
+	-moz-transition: all 1.2s ease;
+			-webkit-transition: all 1.2s ease;
+				-o-transition: all 1.2s ease;
+					transition: all 1.2s ease;
+	}
+#menu li a:hover {
+	color:rgb(255,255,255);
+	background-color:rgba(255,255,255,0.2);
+	-moz-transition: all 0.5s ease;
+			-webkit-transition: all 0.5s ease;
+				-o-transition: all 0.5s ease;
+					transition: all 0.5s ease;
+	}			
