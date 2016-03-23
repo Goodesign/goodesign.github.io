@@ -1,16 +1,16 @@
-html {
-	  background: url(../img/background/bg.jpg) no-repeat center center fixed; 
-		  -webkit-background-size: cover;
-		  -moz-background-size: cover;
-		  -o-background-size: cover;
-		  background-size: cover;
-	 	  background-color:#000000;
-		  -webkit-font-smoothing: antialiased !important;
-	      text-rendering: optimizeLegibility;
+html {      height:100%;
+		   background: url(../img/background/bg.jpg) no-repeat center center fixed; 
+			  -webkit-background-size: cover;
+			  -moz-background-size: cover;
+			  -o-background-size: cover;
+			  background-size: cover;
+			  background-color:#000000;
 		  font-family: sans-serif; /* 1 */
 		  font-size: 62.5%;
-  -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */	  }
+		  -webkit-font-smoothing: antialiased !important;
+	      text-rendering: optimizeLegibility;		  
+          -ms-text-size-adjust: 100%; /* 2 */
+          -webkit-text-size-adjust: 100%; /* 2 */	  }
 	
 
 
@@ -158,6 +158,49 @@ left:-600px;
    
    #socialiconsmenu .icons-menu { width:3.8rem; 
 			height: 3.8rem;}
+			
+/* ------------------------------------------------------ logo*/
+#logo { position: absolute;
+			left: 50%;
+			top: 40%  ;
+			margin-left:-40px;
+			margin-top:-95px;
+			z-index:-1;
+					  
+}
+  
+.cir_01 { position: relative;
+		  top: 20px;	
+		  background-color: rgba(255,255,255,0.12);
+		  width:100px;
+		  height:100px;
+		  border-radius:50%;
+		 }
+		  
+.cir_02 { position: relative;
+		  top: -30px;
+		  left:-40px;		  
+          background-color: rgba(255,255,255,0.12);
+		  width:100px;
+		  height:100px;
+		  border-radius:50%}
+
+.cir_03 { top:-130px;
+		  left: 35px;
+		  position: relative;
+		  background-color: rgba(255,255,255,0.12);
+		  width:100px;
+		  height:100px;
+		  border-radius:50%}
+		  
+.logo_text	{position: relative;
+			color: rgba(255,255,255,0.4);	
+			top:-120px;
+			margin: auto -53px;
+			font-family: 'Quicksand', sans-serif;
+			font-size:3.2rem;
+			font-weight:300;
+			cursor:default}			
    
 	
 	
