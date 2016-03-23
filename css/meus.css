@@ -12,6 +12,16 @@ html {-webkit-font-smoothing: antialiased !important;
 
 /* ---------------------------------------------Menu */
 
+
+
+#barramenu {background-color:rgba(0,0,0,0.7);
+			  position: fixed;
+			width: 9.8%;			
+			min-height: 30px;
+			bottom: 44px;
+			    }
+
+
 #menuinferior {  	  width: 100%;
 			  box-sizing: border-box; 
 			  position: fixed;
@@ -23,17 +33,12 @@ html {-webkit-font-smoothing: antialiased !important;
 			 list-style-type: none;	
 			 }
 
-#lihome  {	
-			font-family: 'Work Sans', sans-serif;
-			font-size:10rem;
-			padding-left:5rem;
-			font-weight:400;
-				}
+			
 
 #menuinferior li {	
-			font-family: 'Work Sans', sans-serif;
+			font-family: 'Raleway', sans-serif;
 			font-size:1.7rem;
-			padding-left:0.5rem;
+			padding-left:0.2rem;
 			font-weight:400;
 			display: inline;
 			
@@ -42,11 +47,10 @@ html {-webkit-font-smoothing: antialiased !important;
 		
 
 #menuinferior li a  {
-			color:rgba(0,0,0,0.4);
+			color:rgba(255,255,255,1);
 			text-decoration:none;
-			padding: 5px 40px 60px 40px;
-			
-		    background-color: rgba(0,0,0,0.14) }
+			padding: 5px 40px 5px 40px;			
+		    background-color: rgba(0,0,0,0.7) }
 			
 #menuinferior li a:hover {color:#ffffff;
             background:rgba(0,0,0,0.4);			
@@ -55,7 +59,8 @@ html {-webkit-font-smoothing: antialiased !important;
 			
 /* --------------------------Icons Menu */			
 .icons-menu { width:3.5rem; 
-			height: 3.5rem;}
+			height: 3.5rem;
+			}
 			
 			
 /* ---------------------------------------------Menu responsivo */
@@ -140,13 +145,14 @@ left:-600px;
 					transition: all 0.5s ease;
 	}
 	
-	#socialiconsmenu {  margin-top: 2rem;
-						margin-left: 2rem;
+	#socialiconsmenu {position: fixed;
+					  bottom: 2rem;  
+					  margin-left: 2rem;
 						}
-   #socialiconsmenu a { padding-right: 10px;}
+   #socialiconsmenu a { padding-right: 5px;}
    
-   #socialiconsmenu .icons-menu { width:4.5rem; 
-			height: 4.5rem;}
+   #socialiconsmenu .icons-menu { width:3.8rem; 
+			height: 3.8rem;}
    
 	
 	
