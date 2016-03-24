@@ -5,7 +5,7 @@
 @media (min-width: 550px) {}
 
 /* Larger than tablet */
-@media (min-width: 750px) { 
+@media (min-width: 1020px) { 
 #lateral {display:none} 
  html {
        background-image: url(../img/background/bg-mobile.jpg);
@@ -22,6 +22,6 @@
 
 /* ----------Acima de 751px */
 
-@media (max-width: 751px) { 
+@media (max-width: 1021px) { 
 #menuinferior {display:none} 
 }
