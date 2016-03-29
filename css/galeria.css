@@ -17,6 +17,7 @@ Main Components
   position: relative;
   min-height: 100vh;
   margin: 30px;
+  z-index: 9;
 
 }
 .cd-main-content:after {
