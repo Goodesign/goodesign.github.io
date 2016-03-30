@@ -9,9 +9,8 @@
 #lateral {display:none} 
  html {
        background-image: url(../img/background/bg-mobile.jpg);}
- body  { overflow:visible;
 
-  }
+
 }
 
 
@@ -26,4 +25,8 @@
 
 @media (max-width: 1021px) { 
 #menuinferior {display:none} 
+    body { overflow-y: auto}
+
+
+
 }
