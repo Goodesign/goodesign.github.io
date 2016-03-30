@@ -31,4 +31,4 @@ Standards: HTML5, CSS3, FancyZoom.js
 Components: normalize.css | initializr 
 
                             
-Software: photoshop notepad++ dreamweaver filezilla 
+Software: photoshop dreamweaver filezilla brackets
