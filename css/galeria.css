@@ -1,8 +1,8 @@
 
-#galeria a {
-  color: #41307c;
-  text-decoration: none;
-  margin:50px;
+.titlegaleria {position: relative;
+    top: 2rem;
+    left: 2rem;
+
 
 }
 
