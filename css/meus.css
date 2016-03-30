@@ -104,10 +104,12 @@ html {      height:100%;
 	::-webkit-scrollbar { 
     display: none; 
 }
-#lateral:hover:before, #lateral:focus:before {
+#lateral:active:before, #lateral:focus:before {
 left:-600px;
 	}
-#lateral:hover, #lateral:focus,  #lateral:active  {
+
+
+#lateral:active, #lateral:focus,  #lateral:active  {
 
 	-moz-transform: translate(340px, 0);
 		-webkit-transform: translate(340px, 0);
@@ -164,6 +166,10 @@ left:-600px;
    
    #socialiconsmenu .icons-menu { width:3.8rem; 
 			height: 3.8rem;}
+
+#x {font-size: 10rem;
+
+}
 			
 /* ------------------------------------------------------ logo*/
 #logo { position: absolute;
