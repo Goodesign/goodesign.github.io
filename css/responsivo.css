@@ -9,11 +9,9 @@
 #lateral {display:none} 
  html {
        background-image: url(../img/background/bg-mobile.jpg);}
-
-
+    body { overflow: hidden;
 }
-
-
+}
 
 /* Larger than desktop */
 @media (min-width: 1000px) {}

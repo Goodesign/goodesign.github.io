@@ -108,7 +108,7 @@ html {      height:100%;
 left:-600px;
 	}
 #lateral:hover, #lateral:focus,  #lateral:active  {
-	overflow:hidden;
+
 	-moz-transform: translate(340px, 0);
 		-webkit-transform: translate(340px, 0);
 			-o-transform: translate(340px, 0);
