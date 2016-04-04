@@ -103,7 +103,7 @@ html {      height:100%;
 	}
 
 
- #lateral:active  {
+ #lateral:active :focus  {
 
 	-moz-transform: translate(340px, 0);
 		-webkit-transform: translate(340px, 0);
@@ -142,7 +142,7 @@ html {      height:100%;
                         -o-transition: all 1.2s ease;
                             transition: all 1.2s ease;
             }
-        #menu li a:hover {
+        #menu li a:hover :focus {
             color:rgb(255,255,255);
             background-color:rgba(255,255,255,0.2);
             -moz-transition: all 0.5s ease;
