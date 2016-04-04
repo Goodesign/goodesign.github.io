@@ -103,7 +103,8 @@ html {      height:100%;
 	}
 
 
- #lateral:active :focus  {
+ #lateral:active ,
+#lateral:focus  {
 
 	-moz-transform: translate(340px, 0);
 		-webkit-transform: translate(340px, 0);
